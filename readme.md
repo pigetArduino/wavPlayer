@@ -10,8 +10,14 @@ Track will stopped if saturation
 # Project link
 http://gps.madnerd.org
 
+# Instructions
 If you want to make a real mp3 player , use a DFPlayer Mini instead   
 This is just a proof of concept.   
+
+* Download wavPlayer.madnerd.org
+* Copy wavPlayer inside Arduino SketchBook (Documents/Arduino)
+* In tools , select : Arduino Pro Mini / 3V 8Mhz
+* Upload code with FTDI cable
 
 # Components:
 * Micro sd card 2go : 4€

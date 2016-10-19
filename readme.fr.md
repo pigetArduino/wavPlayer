@@ -4,14 +4,28 @@ wavPlayer
 
 Lecteur de fichier wav primitif
 Lit uniquement des : Wav Unsigned 8-bit PCM file   
-Le son s'arrête s'il est saturé
+Le son s'arrête s'il est saturé   
 ![wavPlayer](https://github.com/pigetArduino/wavPlayer/blob/master/doc/wavPlayer.jpg)   
 
 # Lien vers le projet
 http://wavPlayer.madnerd.org
 
+# Instructions
 Si vous voulez créer un vrai lecteur mp3, utiliser un DFPlayer mini   
 C'est juste un proof of concept.    
+
+* Télécharger wavPlayer.madnerd.org
+* Copier wavPlayer dans le carnet de croquis Arduino (Documents/Arduino)
+* Dans outils, mettez : Arduino Pro Mini / 3V 8Mhz
+* Uploader le code avec le cable FTDI
+
+# Create wav file
+* Open MP3 with Audacity
+* File/Export Audio
+* Save as type: Other uncompressed files
+* Header: Wav (Microsoft)
+* Encoding : Unsigned 8_bit PCM
+* Save to 0.wav
 
 # Composants:
 * Micro sd card 2go : 4€
@@ -26,14 +40,6 @@ Total : 8.50€
 
 # Logiciels:
   * Arduino (Programmation): http://arduino.madnerd.org
-
-# Create wav file
-* Open MP3 with Audacity
-* File/Export Audio
-* Save as type: Other uncompressed files
-* Header: Wav (Microsoft)
-* Encoding : Unsigned 8_bit PCM
-* Save to 0.wav
 
 # Branchement:
 ![Wiring sd](https://github.com/pigetArduino/wavPlayer/blob/master/doc/sdcard_wiring.png)
