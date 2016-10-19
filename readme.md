@@ -8,7 +8,7 @@ Track will stopped if saturation
 ![wavPlayer](https://github.com/pigetArduino/wavPlayer/blob/master/doc/wavPlayer.jpg)   
 
 # Project link
-http://gps.madnerd.org
+http://wavplayer.madnerd.org
 
 # Instructions
 If you want to make a real mp3 player , use a DFPlayer Mini instead   
