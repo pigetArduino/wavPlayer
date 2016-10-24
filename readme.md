@@ -37,11 +37,14 @@ Estimate cost : 8.50€ (batteries not included)
 
 # Create wav file
 * Open MP3 with Audacity
+* Below -> Project Rate (Hz) : 8000
+* Tracks -> Stereo Track to Mono
+* Tracks -> Resample : 8000hz
 * File/Export Audio
 * Save as type: Other uncompressed files
 * Header: Wav (Microsoft)
 * Encoding : Unsigned 8_bit PCM
-* Save to 0.wav
+* Save to 0.wav on root of sdcard
 
 # Wiring:
 ![Wiring GPS](https://github.com/pigetArduino/wavPlayer/blob/master/doc/sdcard_wiring.png)

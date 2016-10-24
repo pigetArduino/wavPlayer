@@ -19,13 +19,15 @@ C'est juste un proof of concept.
 * Dans outils, mettez : Arduino Pro Mini / 3V 8Mhz
 * Uploader le code avec le cable FTDI
 
-# Create wav file
-* Open MP3 with Audacity
+# Créer un fichier wav
+* Ouvrez le MP3 dans Audacity
+* Tracks -> Stereo Track to Mono
+* Tracks -> Resample : 8000hz
 * File/Export Audio
 * Save as type: Other uncompressed files
 * Header: Wav (Microsoft)
 * Encoding : Unsigned 8_bit PCM
-* Save to 0.wav
+* Sauver sur 0.wav à la base de la carte SD
 
 # Composants:
 * Micro sd card 2go : 4€
