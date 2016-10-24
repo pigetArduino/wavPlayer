@@ -37,6 +37,8 @@ Audio: 6
 Button Previous track: 7
 Button Next track:8
 
+Source: http://garagelab.com/profiles/blogs/tutorial-playing-music-with-garagino-or-arduino-wav-player
+
 */
 #include <SPI.h>
 #include <SD.h>
