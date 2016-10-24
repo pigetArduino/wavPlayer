@@ -2,7 +2,7 @@ wavPlayer
 ----------
 [Original](https://github.com/pigetArduino/wavPlayer/blob/master/readme.md)
 
-Lecteur de fichier wav primitif
+Lecteur de fichier wav primitif   
 Lit uniquement des : Wav Unsigned 8-bit PCM file   
 Le son s'arrête s'il est saturé   
 ![wavPlayer](https://github.com/pigetArduino/wavPlayer/blob/master/doc/wavPlayer.jpg)   
