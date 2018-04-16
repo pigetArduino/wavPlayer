@@ -2,10 +2,15 @@ wavPlayer
 ----------
 [Version française / French version](https://github.com/pigetArduino/wavPlayer/blob/master/readme.fr.md)
 
-Primitive wav file player   
-Only read : Wav Unsigned 8-bit PCM file   
-Track will stopped if saturation   
+
 ![wavPlayer](https://github.com/pigetArduino/wavPlayer/blob/master/doc/wavPlayer.jpg)   
+
+This tutorial shows how to execute a .wav file from an SD memory card.   
+The. wav file is a sound file extension of the RIFF (Resource Interchange File Format) specifications from Microsoft.   
+It is simpler to be executed, once this file is basically digitized sound samples, unlike other compressed formats, such as .mp3 files for example.
+
+This Primitive wav file player only read : Wav Unsigned 8-bit PCM file and track will stopped if saturation occurs (has it won't differentiate it from an end of file for some reason)
+
 
 # Project link
 http://wavplayer.madnerd.org

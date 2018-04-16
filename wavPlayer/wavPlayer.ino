@@ -37,7 +37,7 @@ Audio: 6
 Button Previous track: 7
 Button Next track:8
 
-Source: http://garagelab.com/profiles/blogs/tutorial-playing-music-with-garagino-or-arduino-wav-player
+Source: https://web.archive.org/web/20170430150220/http://garagelab.com/profiles/blogs/tutorial-playing-music-with-garagino-or-arduino-wav-player
 
 */
 #include <SPI.h>
@@ -92,17 +92,20 @@ void loop() {
   }
 
 
-  unsigned char data;
-  for (int count = 0; count < 128; count++) {
-    data = myFile.read();
+  unsigned char data; // Declares a variable to store data from the file.
+  for (int count = 0; count < 128; count++) { // Jumps the header of the .wav file to access the data (after 128 readings). This number may also change for each file.
+    data = myFile.read();  // Reads byte-by-byte until the end of the header.
   }
   Serial.println("Start");
   playing = true;
   check_buttons = 0;
   while (data != 255) {
     data = myFile.read();
-    analogWrite(6, data);
-   // delayMicroseconds(10);
+    analogWrite(6, data); //Sends the data to pin 6 (pin connected to the speaker)
+   // Waits for certain interval (in microseconds) for the next sample (according to the sample of the .wav file)
+   // This time waiting makes the samples being nearer the 8KHz frequency of the file.
+   // delayMicroseconds(10); 
+   
     checkButtons();
 
     if (!playing) {
