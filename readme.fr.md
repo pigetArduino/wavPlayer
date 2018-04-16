@@ -1,6 +1,6 @@
 wavPlayer
 ----------
-[Original](https://github.com/pigetArduino/wavPlayer/blob/master/readme.md)
+[Original (plus récent)](https://github.com/pigetArduino/wavPlayer/blob/master/readme.md)
 
 Lecteur de fichier wav primitif   
 Lit uniquement des : Wav Unsigned 8-bit PCM file   
