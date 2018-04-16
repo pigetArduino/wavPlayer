@@ -11,6 +11,8 @@ It is simpler to be executed, once this file is basically digitized sound sample
 
 This Primitive wav file player only read : Wav Unsigned 8-bit PCM file and track will stopped if saturation occurs (has it won't differentiate it from an end of file for some reason)
 
+This tutorial is based on the tutorial by Garagelab.   
+https://web.archive.org/web/20170430150220/http://garagelab.com/profiles/blogs/tutorial-playing-music-with-garagino-or-arduino-wav-player
 
 # Project link
 http://wavplayer.madnerd.org
